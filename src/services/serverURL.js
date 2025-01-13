@@ -1,3 +1,3 @@
-const SERVERURL = "http://localhost:3000";
+const SERVERURL = "https://my-diary-server.onrender.com";
 
 export default SERVERURL;

@@ -197,7 +197,7 @@ const Notepad = () => {
                         className={`px-3 py-1 m-3 text-white ${!deletable ? 'bg-red-300 pointer-events-none' : 'bg-red-500'} rounded`}
                         disabled={loading || !deletable}
                     >
-                        {loading ? 'Deleting...' : 'Delete'}
+                        {'Delete'}
                     </button>
                 </div>
             </div>
